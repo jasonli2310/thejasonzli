@@ -1,0 +1,55 @@
+/****************
+******BODY CONTENT***********
+*****************/
+body{
+  background-color: #ffebee;
+  color: #5d5d5d;
+}
+
+.container{
+  transition: all 0.2s;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.u-textLower{
+  text-transform: lowercase;
+}
+
+.u-maxWidth900{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h5{
+  font-weight: 430;
+}
+
+.u-lighter{
+  font-weight: 400;
+}
+
+
+.image{
+  align-items: center;
+  height: 120px;
+  background-color: rgba(199,199,199, 0.15);
+  justify-content: center;
+  display: flex;
+}
+
+img{
+  max-width: 100%
+}
+
+.projectItem{
+  cursor: pointer;
+  padding-bottom: 1em;
+}
