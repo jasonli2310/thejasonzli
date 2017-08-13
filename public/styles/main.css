@@ -1,9 +1,16 @@
-/****************
-******BODY CONTENT***********
-*****************/
+/*************************
+BODY CONTENT
+*************************/
+
 body{
   background-color: #ffebee;
   color: #5d5d5d;
+}
+h5{
+  font-weight: 430;
+}
+img{
+  max-width: 100%
 }
 
 .container{
@@ -28,25 +35,21 @@ body{
   padding-bottom: 100px;
 }
 
-h5{
-  font-weight: 430;
-}
-
 .u-lighter{
   font-weight: 400;
+}
+
+.title{
+  padding-bottom: 1.5em;
 }
 
 
 .image{
   align-items: center;
   height: 120px;
-  background-color: rgba(199,199,199, 0.15);
+  background-color: rgba(199,199,199, 0.15); /* #C7C7C7 */
   justify-content: center;
   display: flex;
-}
-
-img{
-  max-width: 100%
 }
 
 .projectItem{
