@@ -24,15 +24,16 @@ img{
   text-transform: lowercase;
 }
 
-.u-maxWidth900{
+.section{
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 170px;
 }
 
 .intro-section{
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 170px;
 }
 
 .u-lighter{
@@ -42,7 +43,6 @@ img{
 .title{
   padding-bottom: 1.5em;
 }
-
 
 .image{
   align-items: center;
