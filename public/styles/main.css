@@ -56,3 +56,65 @@ img{
   cursor: pointer;
   padding-bottom: 1em;
 }
+
+/*************************
+FORM CONTENT
+*************************/
+label{
+  position: absolute;
+  top: 13px;
+  left: 0;
+  font-size: 1.15em;
+  margin-bottom: 0;
+}
+input {
+  background: none;
+  border: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  transition: all .2s ease;
+  line-height: normal;
+  font-size: medium;
+  font-weight: 400;
+}
+
+textarea {
+  background: none;
+  border: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  transition: all .2s ease;
+  line-height: normal;
+  font-size: medium;
+  font-weight: 400;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.contactForm{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputGroup{
+  position: relative;
+}
+.name{
+  border-bottom: 2px solid;
+  flex-grow: 1;
+  padding-left: 55px;
+}
+.email{
+  border-bottom: 2px solid;
+  flex-grow: 1;
+  padding-left: 55px;
+}
+.message{
+  width: 100%;
+  padding-left: 75px;
+  height: 50px;
+}
