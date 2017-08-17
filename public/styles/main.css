@@ -62,7 +62,7 @@ FORM CONTENT
 *************************/
 label{
   position: absolute;
-  top: 13px;
+  top: 14px;
   left: 0;
   font-size: 1.15em;
   margin-bottom: 0;
@@ -76,7 +76,7 @@ input {
   transition: all .2s ease;
   line-height: normal;
   font-size: medium;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 textarea {
