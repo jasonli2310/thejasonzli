@@ -3,7 +3,7 @@ BODY CONTENT
 *************************/
 
 body{
-  background-color: #ffebee;
+  background-color: #fdfdfd;
   color: #5d5d5d;
 }
 h5{
@@ -40,6 +40,10 @@ img{
   font-weight: 400;
 }
 
+.j-fontSize14{
+  font-size: 18px;
+}
+
 .title{
   padding-bottom: 1.5em;
 }
@@ -60,6 +64,15 @@ img{
 /*************************
 FORM CONTENT
 *************************/
+.contactForm{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputGroup{
+  position: relative;
+}
+
 label{
   position: absolute;
   top: 14px;
@@ -67,6 +80,7 @@ label{
   font-size: 1.15em;
   margin-bottom: 0;
 }
+
 input {
   background: none;
   border: 0;
@@ -95,14 +109,7 @@ textarea {
 textarea:focus, input:focus{
     outline: none;
 }
-.contactForm{
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-}
-.inputGroup{
-  position: relative;
-}
+
 .name{
   border-bottom: 2px solid;
   flex-grow: 1;
