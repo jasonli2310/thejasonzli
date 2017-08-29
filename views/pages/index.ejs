@@ -38,6 +38,37 @@
 </head>
 
 <body>
+  <div class="modal fade" id="cluster-map-modal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <p>hello there</p>
+      </div>
+    </div>
+  </div>
+
+
+  <aside id="my-mdc-dialog"
+  class="mdc-dialog"
+  role="alertdialog"
+  aria-labelledby="my-mdc-dialog-label"
+  aria-describedby="my-mdc-dialog-description">
+  <div class="mdc-dialog__surface">
+    <header class="mdc-dialog__header">
+      <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+        Use Google's location service?
+      </h2>
+    </header>
+    <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+      Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
+    </section>
+    <footer class="mdc-dialog__footer">
+      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
+      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
+    </footer>
+  </div>
+  <div class="mdc-dialog__backdrop"></div>
+</aside>
+
   <!--BEGIN CONTENT BODY-->
   <div class="container u-textLower">
     <div class="intro-section section">
@@ -55,16 +86,71 @@
     <div class="work-section section">
       <div class="row">
         <div class="col-sm-8 title">
-          <h3>my work</h3>
+          <h3>my projects</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-6 col-md-4 projectItem">
-          <div class="image">
-            <img src="img/iretron-logo-gray.png" alt="iretron" width="50%;">
-          </div>
-          <h5>iretron</h5>
+        <div class="col-xs-12 col-sm-4 projectItem">
+          <a href="#my-mdc-dialog" data-toggle="dialog">
+            <div class="image">
+              <img src="img/iretron-logo-gray.png" alt="iretron" width="50%;">
+            </div>
+          </a>
         </div>
+        <div class="col-sm-8">
+          <h3 class="company">iretron</h3>
+          <p>
+            it's not easy to go green, so I built an e-commerce website to buy and refurbish used electronics.
+            i went on the show shark tank and had my make up done for the first time. our corporate clients include at&t, verizon, and snapchat.
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="company">uprospie</h3>
+          <p>
+            volunteering at a high school in Chicago helped me understand the problem of undermatching, so I built a
+            marketplace to help students better access higher education and financial aid. We won $60K from pitch
+            competitions around the U.S. and had 10K monthly active users from 80+ campuses.
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="company">flipside</h3>
+          <p>
+            engaging in discourse online is a terrible experience so we're trying to improve it using NLP and good design.
+            we're still building this one out, but it's crazy cool and you should sign up for our beta!
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="company">thinkcerca</h3>
+          <p>
+            thinkcerca is an edtech company that teaches critical thinking through argumentative writing. I helped redesign
+            UI/UX for teachers, built an efficacy visualizer using python for the sales team, and helped create the pitch deck for series B
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="company">oca ventures</h3>
+          <p>
+            OCA Ventures is a $250MM venture capital fund. I screened companies and pitched genvid to the rest of the team (the deal went through !!).
+            I also made 2 kill calls during my time here and it was absolutely heartbreaking. 0/10 would not recommend.
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="company">ampush</h3>
+          <p>
+            Ampush is a Growth Marketing and Digital Strategy agency. I ran and analyzed native facebook ads for uber, eventbrite, and rdio.
+            
+            OCA Ventures is a $250MM venture capital fund. I screened companies and am happy that a deal I screened actually got funding!
+            I also made 2 kill calls during my time here and it was absolutely heartbreaking. 0/10 would not recommend.
+          </p>
+        </div>
+
+
+      </div>
+      <div class="row">
         <div class="col-xs-6 col-md-4 projectItem">
           <div class="image">
             <img src="img/uprospie-logo-gray.png" alt="uprospie" height="55%;">

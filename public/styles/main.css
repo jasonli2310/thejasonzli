@@ -13,6 +13,13 @@ img{
   max-width: 100%
 }
 
+p{
+  font-size: 16px;
+}
+.company{
+  margin-top: 0px;
+}
+
 .container{
   transition: all 0.2s;
   padding-left: 2rem;
@@ -124,4 +131,23 @@ textarea:focus, input:focus{
   width: 100%;
   padding-left: 75px;
   height: 50px;
+}
+
+
+/*************************
+MODAL CONTENT
+*************************/
+
+.modal-dialog{
+  width: 750px;
+  margin-right: 0px;
+  min-height: 500px;
+}
+
+.modal-content{
+  padding: 20px;
+}
+
+.fade{
+  background: none;
 }
