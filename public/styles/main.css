@@ -151,3 +151,13 @@ MODAL CONTENT
 .fade{
   background: none;
 }
+
+
+@media(max-width:991px){
+.modal{
+  width: 90%;
+}
+.modal-content{
+  width: 90%!important;
+}
+}
