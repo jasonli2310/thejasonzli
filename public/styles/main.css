@@ -2,6 +2,9 @@
 BODY CONTENT
 *************************/
 
+.h2{
+  font-size: 1.5rem;
+}
 body{
   background-color: #fdfdfd;
   color: #5d5d5d;
@@ -32,7 +35,7 @@ p{
 }
 
 .section{
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 170px;
@@ -74,6 +77,54 @@ p{
 .projectItem{
   cursor: pointer;
   padding-bottom: 1em;
+  color: rgba(93,93,93, 0.7); /* #C7C7C7 */
+  transition: ease-out 0.15s;
+  transition: ease-in 0.15s;
+}
+
+.projectItem:hover{
+  color: #5d5d5d;
+  transition: ease-out 0.15s;
+  transition: ease-in 0.15s;
+}
+
+
+
+/* me section
+**************************/
+.pageLink{
+  border-bottom: 2.4px solid rgba(93, 93, 93, 0.3);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.pageLink:hover{
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.takingpictures:hover{
+  color: rgba(69, 196, 173, 1)!important;
+}
+.writing:hover{
+  color: rgba(69, 196, 173, 1)!important;
+}
+.myemail:hover{
+  color:rgba(131, 101, 158, 0.9)!important;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.myemail{
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.emailLink{
+  color: rgba(255, 0, 0, 0.0);
+
+}
+.emailLink:hover{
+  color: #5d5d5d
 }
 
 /*************************
@@ -259,7 +310,7 @@ MODAL CONTENT
     text-decoration: none;
 }
 .u-floatRight{
-  float: right;
+  float: right!important;
 }
 
 .seeMoreButton{
