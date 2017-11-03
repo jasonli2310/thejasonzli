@@ -35,10 +35,38 @@
   <!-- Custom styles -->
   <link href="styles/main.css" rel="stylesheet">
   <title>jason</title>
+
+  <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('7kh52p6n4k6s');
+</script>
+<!-- End of Async Drift Code -->
+
 </head>
 
 <body>  <!--BEGIN CONTENT BODY-->
   <div class="container u-textLower"  id="intro">
+
+    {{message}}
     <div class="intro-section section">
       <div class="row">
         <div class="col-sm-12">
@@ -187,6 +215,11 @@ I also made 2 kill calls during my time here and it was absolutely heartbreaking
       </div>
     </div>
   </div>
+</div>
+
+
+<div class="">
+  {{message}}
 </div>
 
 <!-- Trigger/Open The Modal -->
